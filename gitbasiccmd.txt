@@ -1,0 +1,13 @@
+git init //Initialize the folder as a repository
+git add <filename> OR git add . //Add files to staging area
+git status //Status of Git and the Staging area
+git commit -m "Message here" //Commit changes in the staging area to the snapshot
+git branch <name> 	//Create a new branch
+git checkout <name>	//Switch to a branch
+git clone <URL>		//Clone an online repo to a local folder
+git fetch <URL>		//Same as clone, DOES NOT COMMIT automatically
+git push origin <brnchname>	//Sends changes of a BRANCH to remote repo
+git pull origin		//Same as FETCH but commits automatically
+git remote add <name> <URL> 	//Sets the online location for your online commits (ie. git remote add origin github.com)
+
+
